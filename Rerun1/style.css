@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.parent {
+  background-color: #23424a;
+  padding: 50px;
+  margin: 0 auto;
+
+  /* width: 800px; */
+  width: 80%;
+  /* Quick why using percentage instead of fixed, becauase when using fixed it stay that way
+  therfore if the user using a display that different in terms of resolution it would look like a mess. 
+  So while using percentage it would adapt to screen size as body or parent component as it references */
+}
+.child {
+  background-color: #46ea7a;
+  /* height: 250px; */
+  width: 80%;
+  /* 80 of what maybe the right question for this. So always look into the original component on the html.
+  In this case it's 80% of the parent component */
+
+  /* Well dont use height in general. Use pading to get more background instead */
+
+  padding: 8em;
+
+  /* em what is that thing?? check the em and rem folder */
+}
