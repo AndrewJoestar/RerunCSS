@@ -70,6 +70,8 @@ h1 {
 .hero__img {
   width: 32%;
   align-self: flex-start;
+  height: 100%;
+  /* border: #ffffff 1px solid; */
 }
 
 .hero p {
@@ -90,4 +92,44 @@ h1 {
 .btn:hover,
 .btn:focus {
   opacity: 0.75;
+}
+
+.Catchphrases {
+  /* width: 62%; */
+  /* font-size: 1.5rem; */
+  font-size: 2.15rem;
+  margin-bottom: 1em;
+  font-weight: bold;
+  color: #136c72;
+}
+
+.section-2 {
+  margin-top: 2em;
+  /* padding: 100px 0; */
+  /* background-color: #f4f4f4; */
+}
+
+.left-card {
+  width: 62%;
+}
+
+.right-card {
+  /* padding: 10px; */
+  width: 32%;
+  background-color: #136c72;
+  text-align: center;
+  color: #fff;
+}
+
+.right-content {
+  padding: 10px;
+}
+
+.right-title {
+  font-size: 2.15rem;
+  margin-bottom: 0.5em;
+}
+
+.right-text {
+  font-size: 1rem;
 }
